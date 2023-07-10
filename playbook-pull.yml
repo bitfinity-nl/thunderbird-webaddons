@@ -1,0 +1,29 @@
+---
+# Title: thunderbird-webaddons
+#
+# Author: Bitfinity / L. Rutten
+# Owner: Bitfinity / L. Rutten
+#
+# File: playbook-pull.yml
+#
+# Description:
+#   This playbook contains the tasks for
+#   automating Thunderbird web addons.
+#
+- hosts: localhost
+  connection: local
+  become: true
+  
+    pre_tasks:
+      - name: "Include defaults file ~/.ansible-config.yml"
+        include_vars: ~/.ansible-config.yml
+
+    vars:
+
+    
+    handlers:
+      #- include: handlers/main.yml
+
+    tasks:
+      #- name: "Include tasks/01-base.yml"
+      #    include_tasks: tasks/01-base.yml
