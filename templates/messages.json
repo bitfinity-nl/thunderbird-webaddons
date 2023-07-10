@@ -1,0 +1,56 @@
+{
+    "display": {
+        "message": "RCS Chat Web Display",
+        "description": "RCS Web Display"
+    },
+
+    "tab": {
+        "message": "Tab",
+        "description": "Tab"
+    },
+
+    "popup": {
+        "message": "Pop-up",
+        "description": "Pop-up"
+    },
+
+    "context": {
+        "message": "Open a RCS Chat Web tab",
+        "description": "Open a RCS Chat Web tab"
+    },
+
+    "no": {
+        "message": "No",
+        "description": "No"
+    },
+
+    "yes": {
+        "message": "Yes",
+        "description": "Yes"
+    },
+
+    "show-spaces-toolbar": {
+        "message": "Show icon in spaces vertical toolbar",
+        "description": "Show icon in spaces vertical toolbar"
+    },
+
+    "preferred-icon": {
+        "message": "Preferred icon",
+        "description": "Preferred icon"
+    },
+
+    "green": {
+        "message": "Green",
+        "description": "Green"
+    },
+
+    "dark": {
+        "message": "Dark",
+        "description": "Dark"
+    },
+
+    "light": {
+        "message": "Light",
+        "description": "Light"
+    }
+} 
