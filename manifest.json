@@ -1,0 +1,43 @@
+{
+    "manifest_version": 2,
+    "name": "RCS Chats Web in Thunderbird",
+    "description": "RCS Chats Web in Thunderbird",
+    "version": "1.0",
+    "author": "Bitfinity",
+    "homepage_url": "https://bitfinity.nl",
+    "default_locale": "en",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "rcs-chats@Bitfinity.nl",
+            "strict_min_version": "68.0"
+        }
+    },
+    "permissions": [
+        "tabs",
+        "storage",
+        "menus",
+        "webRequest",
+        "webRequestBlocking",
+        "https://*.google.com/*"
+    ],
+    "browser_action": {
+        "default_title": "rcs",
+        "default_icon": "icons/icon.svg"
+    },
+    "options_ui": {
+        "page": "options.html",
+        "browser_style": true
+      },
+    "icons": {
+        "16": "icons/icon.svg",
+        "32": "icons/icon.svg"
+    },
+    "background": {
+        "page": "background.html"
+    },
+    "content_scripts": [{
+        "matches": ["https://*.google.com/*"],
+        "css": ["min-size.css"],
+        "all_frames": true
+    }]
+}
